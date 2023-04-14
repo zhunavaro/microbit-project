@@ -19,10 +19,10 @@ basic.forever(function () {
         mbit_小车类.Servo_Car(mbit_小车类.enServo.S3, 100)
         if (左侧距离 > 右侧距离) {
             mbit_小车类.CarCtrl(mbit_小车类.CarState.Car_SpinLeft)
-            basic.pause(100)
+            basic.pause(80)
         } else {
             mbit_小车类.CarCtrl(mbit_小车类.CarState.Car_SpinRight)
-            basic.pause(100)
+            basic.pause(80)
         }
     }
 })
