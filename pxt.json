@@ -1,5 +1,5 @@
 {
-    "name": "小车跟随",
+    "name": "小车避障",
     "description": "",
     "dependencies": {
         "core": "*",
